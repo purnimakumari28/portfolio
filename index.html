@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet Purnima!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Purnima🌕</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skillset">SkillSet</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Purnima🌕</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skillset" onclick="toggleMenu()">SkillSet</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/Picture3.png" alt="Purnima" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Purnima</h1>
+        <p class="section__text__p2">Undergrad IT Student and Data Science Intern</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">My Résumé</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div class="socials-container">
+          <img src="./assets/linkedin.svg" alt="mylinkedin" class="icon" onclick="window.open('https://www.linkedin.com/in/engineer-purnima-singh/', '_blank')">
+          <img src="./assets/gravatar.svg" alt="myinstagram" class="icon" onclick="window.open('https://gravatar.com/mepurnimasingh', '_blank')">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/Picture5.png" alt="me" class="about-pic">
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="exp icon" class="icon" />
+              <h3>Experience</h3>
+              <p>3 months Data Science Internship<br />at Celebal Technologies.</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="exp icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.Tech in I.T.<br />BCREC</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>A quick learner and a team player, always willing to learn new skills and try new things.<br />Currently honing my Data Science skills at Celebal, with Hands-On experience of Python, Data Manipulation, Visualization & Analysis techniques, SQL and Machine Learning.<br />In my final year of a pursuing B.Tech., with a lifetime of lessons and experience in the esteemed domain of Positivity. </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Next" onclick="location.href='./#skillset'" class="icon arrow">
+    </section>
+    <section id="skillset">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">SkillSet</h1>
+      <div class="skillset-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="skillset-sub-title">Programming Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/c_icon.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/c++.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>C++</h3>
+                  <p>Beginner-Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/java_icon.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>Java</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/sql.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>SQL</h3>
+                  <p>Beginner-Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/oops.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>OOPS</h3>
+                  <p>Beginner-Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skillset-sub-title">Development Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/html.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/css.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/js.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/vscode.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>VS Code </h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skillset-sub-title">Data Science Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/python_icon.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/machine_learning_icon.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/cluster.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>Clustering</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/logistic-regression.png" alt="skill icon" class="icon">
+                <div>
+                  <h3>Regression</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skillset-sub-title">Coursework and Softwares</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/windows_icon.png" alt="skill icon" class="icon">
+              <div>
+                <h3>Windows</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/linux.png" alt="skill icon" class="icon">
+              <div>
+                <h3>Linux and Shell Scripting</h3>
+                <p>Beginner-Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/data-structure.png" alt="skill icon" class="icon">
+              <div>
+                <h3>Data Structures and Algorithms</h3>
+                <p>Beginner-Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/office.png" alt="skill icon" class="icon">
+              <div>
+                <h3>Microsoft Office Suite</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/database.png" alt="skill icon" class="icon">
+              <div>
+                <h3>DBMS</h3>
+                <p>Beginner-Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/global-network.png" alt="skill icon" class="icon">
+              <div>
+                <h3>Networking</h3>
+                <p>Beginner-Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>  
+      </div>
+      <img src="./assets/arrow.png" alt="Next" onclick="location.href='./#contact'" class="icon arrow">
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <p class="title">Contact Me</p>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="email" class="icon contact-icon email-icon" />
+          <p><a href="mailto:mepurnimasingh@proton.me">mepurnimasingh@proton.me</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.svg" alt="email" class="icon contact-icon linkedin-icon" />
+          <p><a href="https://www.linkedin.com/in/engineer-purnima-singh/">LinkedIn</a></p>
+        </div>
+      </div>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skillset">SkillSet</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Made with Love and Interest at Heart. <a href="https://github.com/purnimakumari28">Checkout the Code</a>. Licensed with <a href="https://unlicense.org/">The Unlicense</a> to spread the love ❤️</p>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
