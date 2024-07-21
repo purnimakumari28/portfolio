@@ -61,6 +61,15 @@
     }
 }
 
+@media screen and (max-width: 800px){
+    .about-container,
+    .contact-info-upper-container,
+    .btn-container{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
 @media screen and (max-width: 600px){
     #profile{
         height: 83vh;
