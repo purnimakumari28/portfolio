@@ -118,6 +118,11 @@ body.dark-mode .title{
     opacity: 0.9;   
 }
 
+body.dark-mode .email-icon{
+    height: 3rem;
+    padding: 0;
+}
+
 /* NAV */
 
 html {
